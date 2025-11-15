@@ -1,6 +1,23 @@
 ### ASTEROIDS PROJECT ###
 This is a python project exploring object-oriented programming via a Boot.dev course. While they provided the incremental plan and some of the vector code, I created the large bulk of this code and repository.
 
+To play the game, you must have:
+ - Python 3.10+ installed
+ - The uv project/package manager
+ - Access to a unix shell (ex. bash)
+
+1. Download the files
+2. In the project directory, create a virtual environment and activate it using the following commands:
+    ```python
+    uv venv
+    source .venv/bin/activate
+    ```
+
+3. Run the game with
+   ```python
+   uv run main.py
+   ```
+
 When run, the program will:
  - allow you to pilot a polygon ship across a black screen using WASD
  - spawn asteroids of varying size, direction, and speed
@@ -20,3 +37,4 @@ In the future, I plan to add the following to the game:
  - a triangular hit box for the ship (currently has a circular one)
  - shield and speed powerups
  - bombs
+
