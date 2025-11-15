@@ -8,5 +8,3 @@ wheels/
 game_state.jsonl
 # Virtual environments
 .venv
-# Notes
-Asteroids
